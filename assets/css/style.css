@@ -1,0 +1,66 @@
+.gradient-background {
+    /* Fallback color */
+    background: #0A0A0A;    
+}
+
+button.btn-close {
+    color: white !important;
+}
+.main_btn{
+    padding: 10px 50px;
+    border: 0px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #6979F8;
+}
+
+
+
+
+
+
+
+.card_style{
+
+    border-radius: 50px;
+    border: 1px solid rgb(92, 92, 92);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.066);
+
+}
+@media only screen and (min-width: 993px) {
+    
+}
+.input-group-text {
+        background-color: white; /* Button background */
+        color: black; /* Button text color */
+        border: none; /* Remove button border */
+    }
+
+    .form-control {
+        background-color: transparent !important; /* Transparent text field background */
+        color: white; /* Text field text color */
+        border: 1px solid white !important; /* Overall border */
+        border-radius: 5px; /* Border radius */
+        box-shadow: none !important; /* Remove box shadow */
+    }
+
+    .form-control::placeholder {
+        color: white; /* Placeholder color */
+    }
+
+#navigation_bar{
+    position: static;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+
+
+
